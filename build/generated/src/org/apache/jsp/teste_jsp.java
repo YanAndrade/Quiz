@@ -129,7 +129,7 @@ String i = String.valueOf(test.indexOf(question));
       out.print(request.getParameter("nome"));
       out.write("  />\n");
       out.write("        </form>\n");
-      out.write("        <h3>   <a href=\"home.jsp\">Voltar</a></h3>\n");
+      out.write("        <h3>   <a href=\"index.jsp\">Voltar</a></h3>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {

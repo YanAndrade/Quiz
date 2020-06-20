@@ -40,7 +40,7 @@ if(request.getParameter("session.login") != null){
 <%}else{%>
     <form>
         <a href="<%=request.getContextPath()%>/index.jsp">&#127968;INÍCIO</a> &#10072;
-        <a href="<%=request.getContextPath()%>/categories.jsp">CATEGORIAS</a> &#10072;
+        <a href="<%=request.getContextPath()%>/teste.jsp">TESTE</a> &#10072;
         <%if(session.getAttribute("user.role").equals("ADMIN")){%>
         <span style="border:1px; background-color: lightgray; color:white;">
             &nbsp; &#10074; &#x1F512;<a href="<%=request.getContextPath()%>/restricted/users.jsp">USUÁRIOS</a>&#10074; &nbsp;
